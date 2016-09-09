@@ -104,7 +104,7 @@ class ImageButton extends Button
         type: 'file'
         title: @_t('uploadImage')
         multiple: true
-        accept: 'image/*'
+        accept: 'image/jpeg,image/png'
       .appendTo($uploadItem)
 
     createInput()
@@ -450,7 +450,7 @@ class ImagePopover extends Popover
         type: 'file'
         title: @_t('uploadImage')
         multiple: true
-        accept: 'image/*'
+        accept: 'image/jpeg,image/png'
       .appendTo($uploadBtn)
 
     createInput()
